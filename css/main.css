@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    border-radius: 60px;
+    width: 100px;
+}
+
+.content p{
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #3498db;
+
+}
+
+.content h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.pilihan img{
+    margin-top: 50px;
+}
+
+.pilihan p{
+    color: grey;
+}
+
+
+@media (min-width: 326px) {
+    .content p{
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+        color: #3498db;
+    
+    }
+    
+    .content h1{
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 526px) {
+    .content p{
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+        color: #3498db;
+    
+    }
+    
+    .content h1{
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
